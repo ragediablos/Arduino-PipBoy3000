@@ -10,6 +10,9 @@ INDEX
 
 
 1. Files Included with pipbot open source project.
-  - 3D Print Files for Frame
-  -
+  - 3D Print Files for Frame for the Pipboy3000
+  - 3D Print files for fallout4 edition will be added a later time.
+  - thanks to YTECH for sharing this project the mproject described on this page is licensed under the Creative commons - Attribution  - ShareAlike license.
+
+
 2.
