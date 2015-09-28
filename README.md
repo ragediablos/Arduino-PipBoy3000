@@ -15,4 +15,15 @@ INDEX
   - thanks to YTECH for sharing this project the mproject described on this page is licensed under the Creative commons - Attribution  - ShareAlike license.
 
 
-2.
+2.Parts Needed
+3D printer source files from dragonator.
+4D Systems 4.3 inch touch display (datasheet) (programmer).
+8 gig micro SD card.
+Adafruit PowerBoost 500 charger/booster (datasheet).
+Lipo 2500mAh 3.7v battery.
+USB breakout board.
+10 Position rotary switch.
+3 orange LED's (Radio Shack).
+1 red LED (Radio Shack).
+1-10k resistor (Radio Shack).
+2-220ohm resistors (Radio Shack).
