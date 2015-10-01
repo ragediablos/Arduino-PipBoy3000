@@ -27,3 +27,4 @@ INDEX
   - 1 red LED (Radio Shack).
   - 1-10k resistor (Radio Shack).
   - 2-220ohm resistors (Radio Shack).
+  - possible raspberry pi
