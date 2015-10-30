@@ -1,0 +1,3146 @@
+﻿Version     0.0
+Platform    uLCD-43PT-L
+PlatRes     272x480
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    SndBuf                       0
+end
+Form
+    Name                         Form0
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        cnd.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+PinInput
+    Name                         PinInput0
+    IdleState                    Low
+    Pin                          IO1_PIN
+    OnChanged                    Form6Set
+end
+UserButton
+    Name                         Userbutton7
+    Height                       20
+    Images                       ''
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
+    Width                        48
+    OnChanged                    Form1Activate
+end
+UserButton
+    Name                         Userbutton8
+    Height                       18
+    Images                       ''
+    Left                         5
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          88
+    Width                        41
+    OnChanged                    Form2Activate
+end
+UserButton
+    Name                         Userbutton14
+    Height                       23
+    Images                       ''
+    Left                         93
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          249
+    Width                        96
+    OnChanged                    Form3Activate
+end
+PinInput
+    Name                         PinInput1
+    IdleState                    High
+    Pin                          IO2_PIN
+    OnChanged                    Form11Set
+end
+UserButton
+    Name                         Userbutton105
+    Height                       18
+    Images                       ''
+    Left                         220
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        40
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton114
+    Height                       17
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton182
+    Height                       17
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+PinOutput
+    Name                         PinOutput0
+    IdleState                    Low
+    PulseDuration                3000
+    Pin                          IO3_PIN
+    OnChanged                    ''
+end
+PinOutput
+    Name                         PinOutput1
+    IdleState                    Low
+    PulseDuration                3000
+    Pin                          IO4_PIN
+    OnChanged                    ''
+end
+PinOutput
+    Name                         PinOutput2
+    IdleState                    Low
+    PulseDuration                3000
+    Pin                          IO5_PIN
+    OnChanged                    ''
+end
+Form
+    Name                         Form1
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        rad.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton9
+    Height                       17
+    Images                       ''
+    Left                         2
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          38
+    Width                        49
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton10
+    Height                       16
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          88
+    Width                        34
+    OnChanged                    Form2Activate
+end
+UserButton
+    Name                         Userbutton47
+    Height                       27
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          245
+    Width                        100
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton106
+    Height                       26
+    Images                       ''
+    Left                         220
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          246
+    Width                        48
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton115
+    Height                       15
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton183
+    Height                       16
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form2
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        eff.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton11
+    Height                       21
+    Images                       ''
+    Left                         3
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          38
+    Width                        42
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton12
+    Height                       18
+    Images                       ''
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          60
+    Width                        48
+    OnChanged                    Form1Activate
+end
+UserButton
+    Name                         Userbutton48
+    Height                       29
+    Images                       ''
+    Left                         91
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          243
+    Width                        102
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton107
+    Height                       25
+    Images                       ''
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton116
+    Height                       17
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton184
+    Height                       19
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form3
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special01.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton13
+    Height                       27
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          244
+    Width                        64
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton15
+    Height                       22
+    Images                       ''
+    Left                         33
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        103
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton16
+    Height                       24
+    Images                       ''
+    Left                         33
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          95
+    Width                        104
+    OnChanged                    Form7Activate
+end
+UserButton
+    Name                         Userbutton17
+    Height                       19
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        106
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton18
+    Height                       21
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        101
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton19
+    Height                       23
+    Images                       ''
+    Left                         37
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        100
+    OnChanged                    Form10Activate
+end
+UserButton
+    Name                         Userbutton108
+    Height                       22
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          250
+    Width                        54
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton117
+    Height                       23
+    Images                       ''
+    Left                         295
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          249
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton185
+    Height                       20
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        69
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form5
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        Pip-Boy-3000-screen-small.gif
+    Source.Height                240
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 400
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+4Dbutton
+    Name                         4Dbutton10
+    Height                       32
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         32x32
+    Style                        Red
+    Top                          236
+    Type                         Button02
+    Width                        32
+    OnChanged                    Form0Activate
+end
+Label
+    Name                         Label0
+    4DGLFont.Font                FONT1
+    4DGLFont.Bold                No
+    4DGLFont.Italic              No
+    4DGLFont.Inverse             No
+    4DGLFont.Underline           No
+    4DGLFont.MagWidth            1
+    4DGLFont.MagHeight           1
+    4DGLFont.Opaque              Yes
+    BGcolor                      AZURE
+    Caption                      EXIT
+    FGcolor                      BLACK
+    Left                         44
+    Top                          248
+end
+Form
+    Name                         Form6
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton0
+    Height                       35
+    Images                       ''
+    Left                         12
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        70
+    OnChanged                    Form5Activate
+end
+4Dbutton
+    Name                         4Dbutton11
+    Height                       48
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Green
+    Top                          200
+    Type                         Button02
+    Width                        48
+    OnChanged                    Form0Activate
+end
+WinButton
+    Name                         Winbutton0
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      STATS
+    Color                        GREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       35
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          56
+    Visible                      Yes
+    Width                        120
+    OnChanged                    PinOutput0Set
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton1
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      ITEMS
+    Color                        GREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       35
+    Left                         180
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          56
+    Visible                      Yes
+    Width                        120
+    OnChanged                    PinOutput1Set
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton2
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      DATA
+    Color                        GREEN
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       35
+    Left                         336
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          56
+    Visible                      Yes
+    Width                        113
+    OnChanged                    PinOutput2Set
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext0
+    AutoSize                     Yes
+    Caption                      Exit
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         224
+    Top                          252
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        20
+    WordWrap                     Yes
+end
+Form
+    Name                         Form7
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special03.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton1
+    Height                       20
+    Images                       ''
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          61
+    Width                        41
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton6
+    Height                       22
+    Images                       ''
+    Left                         31
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          42
+    Width                        111
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton26
+    Height                       26
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        98
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton27
+    Height                       20
+    Images                       ''
+    Left                         29
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          122
+    Width                        109
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton28
+    Height                       23
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        122
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton29
+    Height                       23
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        111
+    OnChanged                    Form10Activate
+end
+UserButton
+    Name                         Userbutton30
+    Height                       27
+    Images                       ''
+    Left                         10
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          245
+    Width                        54
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton110
+    Height                       21
+    Images                       ''
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          251
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton119
+    Height                       18
+    Images                       ''
+    Left                         296
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          254
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton187
+    Height                       17
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        67
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form8
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special04.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton2
+    Height                       23
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          84
+    Width                        37
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton3
+    Height                       16
+    Images                       ''
+    Left                         37
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          45
+    Width                        95
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton31
+    Height                       25
+    Images                       ''
+    Left                         40
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
+    Width                        100
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton32
+    Height                       22
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          97
+    Width                        106
+    OnChanged                    Form7Activate
+end
+UserButton
+    Name                         Userbutton33
+    Height                       20
+    Images                       ''
+    Left                         26
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          149
+    Width                        112
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton34
+    Height                       19
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          175
+    Width                        107
+    OnChanged                    Form10Activate
+end
+UserButton
+    Name                         Userbutton35
+    Height                       25
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        56
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton111
+    Height                       18
+    Images                       ''
+    Left                         216
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton120
+    Height                       18
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton188
+    Height                       22
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          250
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form9
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special05.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton4
+    Height                       19
+    Images                       ''
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          62
+    Width                        40
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton5
+    Height                       20
+    Images                       ''
+    Left                         38
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          47
+    Width                        97
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton36
+    Height                       20
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        99
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton37
+    Height                       18
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        106
+    OnChanged                    Form7Activate
+end
+UserButton
+    Name                         Userbutton38
+    Height                       23
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        107
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton39
+    Height                       21
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        116
+    OnChanged                    Form10Activate
+end
+UserButton
+    Name                         Userbutton40
+    Height                       27
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          245
+    Width                        55
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton112
+    Height                       20
+    Images                       ''
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton121
+    Height                       19
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton189
+    Height                       20
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form10
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special06.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton41
+    Height                       25
+    Images                       ''
+    Left                         35
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          41
+    Width                        97
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton42
+    Height                       23
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          70
+    Width                        114
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton43
+    Height                       21
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        117
+    OnChanged                    Form7Activate
+end
+UserButton
+    Name                         Userbutton44
+    Height                       23
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        108
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton45
+    Height                       24
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          143
+    Width                        101
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton46
+    Height                       28
+    Images                       ''
+    Left                         12
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          244
+    Width                        57
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton113
+    Height                       22
+    Images                       ''
+    Left                         216
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton122
+    Height                       23
+    Images                       ''
+    Left                         284
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton190
+    Height                       29
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          243
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form4
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        special02.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton20
+    Height                       25
+    Images                       ''
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          40
+    Width                        98
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton21
+    Height                       21
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        108
+    OnChanged                    Form7Activate
+end
+UserButton
+    Name                         Userbutton22
+    Height                       24
+    Images                       ''
+    Left                         29
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          119
+    Width                        115
+    OnChanged                    Form8Activate
+end
+UserButton
+    Name                         Userbutton23
+    Height                       21
+    Images                       ''
+    Left                         30
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          150
+    Width                        113
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton24
+    Height                       18
+    Images                       ''
+    Left                         29
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          177
+    Width                        112
+    OnChanged                    Form10Activate
+end
+UserButton
+    Name                         Userbutton25
+    Height                       26
+    Images                       ''
+    Left                         13
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          246
+    Width                        52
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton109
+    Height                       20
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton118
+    Height                       16
+    Images                       ''
+    Left                         296
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton186
+    Height                       19
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form11
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        'low batt.jpg'
+    Source.Height                900
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 1600
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+4Dbutton
+    Name                         4Dbutton0
+    Height                       48
+    Left                         216
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Red
+    Top                          204
+    Type                         Button02
+    Width                        48
+    OnChanged                    Form0Activate
+end
+StaticText
+    Name                         Statictext3
+    AutoSize                     Yes
+    Caption                      Dismiss
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         220
+    Top                          256
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        37
+    WordWrap                     Yes
+end
+Form
+    Name                         Form12
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill01.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton49
+    Height                       21
+    Images                       ''
+    Left                         22
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          65
+    Width                        160
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton50
+    Height                       17
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          92
+    Width                        149
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton51
+    Height                       14
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        148
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton52
+    Height                       15
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          144
+    Width                        154
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton53
+    Height                       17
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        141
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton54
+    Height                       15
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          196
+    Width                        141
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton55
+    Height                       16
+    Images                       ''
+    Left                         12
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton56
+    Height                       15
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        89
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton123
+    Height                       15
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton191
+    Height                       28
+    Images                       ''
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          244
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form13
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill02.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton57
+    Height                       17
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          42
+    Width                        118
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton58
+    Height                       17
+    Images                       ''
+    Left                         26
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          92
+    Width                        121
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton59
+    Height                       19
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          116
+    Width                        96
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton60
+    Height                       15
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          144
+    Width                        104
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton61
+    Height                       18
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          168
+    Width                        103
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton62
+    Height                       17
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          196
+    Width                        95
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton63
+    Height                       14
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton64
+    Height                       16
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        95
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton124
+    Height                       19
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton192
+    Height                       23
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        73
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form14
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill03.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton65
+    Height                       19
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          41
+    Width                        85
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton66
+    Height                       18
+    Images                       ''
+    Left                         20
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
+    Width                        88
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton67
+    Height                       17
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        81
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton68
+    Height                       19
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          144
+    Width                        70
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton69
+    Height                       16
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        90
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton70
+    Height                       17
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          197
+    Width                        77
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton71
+    Height                       14
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton72
+    Height                       17
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        94
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton125
+    Height                       20
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton193
+    Height                       20
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        71
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form15
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill04.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton73
+    Height                       15
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          40
+    Width                        71
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton74
+    Height                       21
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
+    Width                        84
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton75
+    Height                       15
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          95
+    Width                        99
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton76
+    Height                       13
+    Images                       ''
+    Left                         31
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          147
+    Width                        85
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton77
+    Height                       17
+    Images                       ''
+    Left                         30
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          171
+    Width                        97
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton78
+    Height                       16
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          196
+    Width                        70
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton79
+    Height                       17
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        57
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton80
+    Height                       15
+    Images                       ''
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        90
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton126
+    Height                       21
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          251
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton194
+    Height                       24
+    Images                       ''
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form16
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill05.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton81
+    Height                       17
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          42
+    Width                        85
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton82
+    Height                       13
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        80
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton83
+    Height                       20
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          92
+    Width                        102
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton84
+    Height                       19
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          117
+    Width                        85
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton85
+    Height                       19
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        94
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton86
+    Height                       18
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          195
+    Width                        84
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton87
+    Height                       15
+    Images                       ''
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        76
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton88
+    Height                       18
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        95
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton127
+    Height                       20
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton195
+    Height                       19
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form17
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill06.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton89
+    Height                       21
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          40
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton90
+    Height                       13
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        83
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton91
+    Height                       18
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          92
+    Width                        92
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton92
+    Height                       15
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        87
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton93
+    Height                       15
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          144
+    Width                        80
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton94
+    Height                       19
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          196
+    Width                        76
+    OnChanged                    Form18Activate
+end
+UserButton
+    Name                         Userbutton95
+    Height                       20
+    Images                       ''
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton96
+    Height                       25
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        91
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton128
+    Height                       22
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          250
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton196
+    Height                       22
+    Images                       ''
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form18
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        skill07.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton97
+    Height                       25
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          40
+    Width                        82
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton98
+    Height                       19
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
+    Width                        73
+    OnChanged                    Form13Activate
+end
+UserButton
+    Name                         Userbutton99
+    Height                       18
+    Images                       ''
+    Left                         26
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          94
+    Width                        102
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton100
+    Height                       15
+    Images                       ''
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        94
+    OnChanged                    Form15Activate
+end
+UserButton
+    Name                         Userbutton101
+    Height                       17
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          144
+    Width                        84
+    OnChanged                    Form16Activate
+end
+UserButton
+    Name                         Userbutton102
+    Height                       23
+    Images                       ''
+    Left                         29
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          167
+    Width                        101
+    OnChanged                    Form17Activate
+end
+UserButton
+    Name                         Userbutton103
+    Height                       16
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton104
+    Height                       18
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        95
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton129
+    Height                       20
+    Images                       ''
+    Left                         292
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton197
+    Height                       22
+    Images                       ''
+    Left                         372
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          250
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form19
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk01.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton130
+    Height                       20
+    Images                       ''
+    Left                         20
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          68
+    Width                        109
+    OnChanged                    Form20Activate
+end
+UserButton
+    Name                         Userbutton131
+    Height                       17
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        100
+    OnChanged                    Form21Activate
+end
+UserButton
+    Name                         Userbutton132
+    Height                       16
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        95
+    OnChanged                    Form22Activate
+end
+UserButton
+    Name                         Userbutton133
+    Height                       18
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        98
+    OnChanged                    Form23Activate
+end
+UserButton
+    Name                         Userbutton134
+    Height                       19
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        90
+    OnChanged                    Form24Activate
+end
+UserButton
+    Name                         Userbutton135
+    Height                       16
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton136
+    Height                       16
+    Images                       ''
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        92
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton137
+    Height                       19
+    Images                       ''
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton198
+    Height                       18
+    Images                       ''
+    Left                         376
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form20
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk02.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton138
+    Height                       21
+    Images                       ''
+    Left                         18
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          41
+    Width                        109
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton139
+    Height                       17
+    Images                       ''
+    Left                         20
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        108
+    OnChanged                    Form21Activate
+end
+UserButton
+    Name                         Userbutton140
+    Height                       15
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        104
+    OnChanged                    Form22Activate
+end
+UserButton
+    Name                         Userbutton141
+    Height                       14
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        105
+    OnChanged                    Form23Activate
+end
+UserButton
+    Name                         Userbutton142
+    Height                       15
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          176
+    Width                        99
+    OnChanged                    Form24Activate
+end
+UserButton
+    Name                         Userbutton143
+    Height                       22
+    Images                       ''
+    Left                         12
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        54
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton144
+    Height                       20
+    Images                       ''
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        94
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton145
+    Height                       18
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton199
+    Height                       25
+    Images                       ''
+    Left                         376
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form21
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk03.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton146
+    Height                       14
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          47
+    Width                        93
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton147
+    Height                       17
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          72
+    Width                        85
+    OnChanged                    Form20Activate
+end
+UserButton
+    Name                         Userbutton148
+    Height                       21
+    Images                       ''
+    Left                         21
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        105
+    OnChanged                    Form22Activate
+end
+UserButton
+    Name                         Userbutton149
+    Height                       14
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        86
+    OnChanged                    Form23Activate
+end
+UserButton
+    Name                         Userbutton150
+    Height                       19
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          172
+    Width                        90
+    OnChanged                    Form24Activate
+end
+UserButton
+    Name                         Userbutton151
+    Height                       20
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton152
+    Height                       27
+    Images                       ''
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          245
+    Width                        91
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton153
+    Height                       19
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton200
+    Height                       19
+    Images                       ''
+    Left                         380
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form22
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk04.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton154
+    Height                       15
+    Images                       ''
+    Left                         23
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          48
+    Width                        98
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton155
+    Height                       15
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          72
+    Width                        95
+    OnChanged                    Form20Activate
+end
+UserButton
+    Name                         Userbutton156
+    Height                       19
+    Images                       ''
+    Left                         21
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        114
+    OnChanged                    Form21Activate
+end
+UserButton
+    Name                         Userbutton157
+    Height                       21
+    Images                       ''
+    Left                         18
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          145
+    Width                        98
+    OnChanged                    Form23Activate
+end
+UserButton
+    Name                         Userbutton158
+    Height                       14
+    Images                       ''
+    Left                         20
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          176
+    Width                        87
+    OnChanged                    Form24Activate
+end
+UserButton
+    Name                         Userbutton159
+    Height                       24
+    Images                       ''
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton160
+    Height                       16
+    Images                       ''
+    Left                         100
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        88
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton161
+    Height                       20
+    Images                       ''
+    Left                         208
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton201
+    Height                       17
+    Images                       ''
+    Left                         376
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form23
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk05.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton162
+    Height                       20
+    Images                       ''
+    Left                         27
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          46
+    Width                        91
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton163
+    Height                       16
+    Images                       ''
+    Left                         28
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          71
+    Width                        74
+    OnChanged                    Form20Activate
+end
+UserButton
+    Name                         Userbutton164
+    Height                       20
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        103
+    OnChanged                    Form21Activate
+end
+UserButton
+    Name                         Userbutton165
+    Height                       15
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        93
+    OnChanged                    Form22Activate
+end
+UserButton
+    Name                         Userbutton166
+    Height                       16
+    Images                       ''
+    Left                         25
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          176
+    Width                        77
+    OnChanged                    Form24Activate
+end
+UserButton
+    Name                         Userbutton167
+    Height                       22
+    Images                       ''
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          250
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton168
+    Height                       26
+    Images                       ''
+    Left                         100
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          246
+    Width                        88
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton169
+    Height                       19
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton202
+    Height                       32
+    Images                       ''
+    Left                         376
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          240
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form24
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        perk06.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton170
+    Height                       16
+    Images                       ''
+    Left                         25
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          44
+    Width                        91
+    OnChanged                    Form19Activate
+end
+UserButton
+    Name                         Userbutton171
+    Height                       19
+    Images                       ''
+    Left                         25
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          72
+    Width                        87
+    OnChanged                    Form20Activate
+end
+UserButton
+    Name                         Userbutton172
+    Height                       15
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        109
+    OnChanged                    Form21Activate
+end
+UserButton
+    Name                         Userbutton173
+    Height                       18
+    Images                       ''
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          124
+    Width                        100
+    OnChanged                    Form22Activate
+end
+UserButton
+    Name                         Userbutton174
+    Height                       16
+    Images                       ''
+    Left                         21
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          148
+    Width                        85
+    OnChanged                    Form23Activate
+end
+UserButton
+    Name                         Userbutton175
+    Height                       20
+    Images                       ''
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton176
+    Height                       16
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        93
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton177
+    Height                       18
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton203
+    Height                       25
+    Images                       ''
+    Left                         376
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        70
+    OnChanged                    Form25Activate
+end
+Form
+    Name                         Form25
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        general01.jpg
+    Source.Height                273
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton178
+    Height                       16
+    Images                       ''
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form0Activate
+end
+UserButton
+    Name                         Userbutton179
+    Height                       18
+    Images                       ''
+    Left                         92
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        99
+    OnChanged                    Form3Activate
+end
+UserButton
+    Name                         Userbutton180
+    Height                       24
+    Images                       ''
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        70
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton181
+    Height                       19
+    Images                       ''
+    Left                         288
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          252
+    Width                        70
+    OnChanged                    Form19Activate
+end
