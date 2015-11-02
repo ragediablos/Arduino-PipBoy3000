@@ -1,6 +1,7 @@
 # Arduino
 Code/Ideas for my Arduino projects!
 DIY Pipboy 3000 setup with TFT screen and analog buttons for control alpha v .1
+NOTE readme.md is still being updated
 
 
 
@@ -17,7 +18,9 @@ DIY Pipboy 3000 setup with TFT screen and analog buttons for control alpha v .1
   - 3D Print Files for Frame for the Pipboy3000
   - 3D Print files for fallout4 edition will be added a later time.
   - thanks to YTECH for sharing this project the mproject described on this page is licensed under the Creative commons - Attribution  - ShareAlike license.
-  - look at wiring diagram  plus hook up for arduino.
+  - look at wiring diagram in the img folder for hook-up for 4d systems screen.
+  - use 4D systems IDE to install files to screen.
+  - the pipboy.ino file is the code for the buttons to interact with the screen plus features.
 
 
 2.Parts Needed
